@@ -9,8 +9,7 @@ It includes both the core AES components (S-box, key expansion, encryption/decry
 - **`Sbox.ts`** – AES S-box and inverse S-box tables.  
 - **`helpers.ts`** – Utility functions (finite field operations, byte/word transformations, etc.).  
 - **`client.ts`** – Example usage / test client.  
-- **`attackRelated.ts`** – Code related to cryptanalysis (e.g., square/partial sum attacks).  
-- **`notes`** – Additional notes and references used during development.  
+- **`attackRelated.ts`** – Code related to cryptanalysis (e.g., square attacks).  
 
 ## 🚀 Getting Started
 
