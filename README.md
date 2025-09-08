@@ -15,12 +15,11 @@ It includes both the core AES components (S-box, key expansion, encryption/decry
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/I-Kazanci/AES-4-Round-Attack.git
+   cd AES-4-Round-Attack
    ```
 
 2. **Install dependencies**
-   (if you have a `package.json`)
    ```bash
    npm install
    ```
