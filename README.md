@@ -1,17 +1,17 @@
-# AES Implementation in TypeScript
+# AES&Square Attack on 4-Round Implementation in TypeScript
 
 This repository contains an implementation of the **Advanced Encryption Standard (AES)** written in **TypeScript**.  
 It includes both the core AES components (S-box, key expansion, encryption/decryption) and some attack-related experiments.
 
-## 📂 Project Structure
+## Project Structure
 
 - **`index.ts`** – Entry point and high-level AES logic.  
 - **`Sbox.ts`** – AES S-box and inverse S-box tables.  
 - **`helpers.ts`** – Utility functions (finite field operations, byte/word transformations, etc.).  
 - **`client.ts`** – Example usage / test client.  
-- **`attackRelated.ts`** – Code related to cryptanalysis (e.g., square attacks).  
+- **`attackRelated.ts`** – Code related to cryptanalysis (e.g., square attack).  
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -29,14 +29,14 @@ It includes both the core AES components (S-box, key expansion, encryption/decry
    npx ts-node index.ts
    ```
 
-## 🛠 Features
+## Features
 
 - AES core implementation in TypeScript.
 - S-box & inverse S-box lookup tables.
 - Helper functions for Galois Field arithmetic.
 - Example client code for testing.
-- Early exploration of AES cryptanalysis techniques.
+- Fully functional Square Attack on Round 4-AES.
 
-## 📜 License
+##  License
 
 MIT License – feel free to use, modify, and share.
