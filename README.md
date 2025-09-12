@@ -1,4 +1,4 @@
-# AES&Square Attack on 4-Round Implementation in TypeScript
+# AES & Square Attack on 4-Round Implementation in TypeScript
 
 This repository contains an implementation of the **Advanced Encryption Standard (AES)** written in **TypeScript**.  
 It includes both the core AES components (S-box, key expansion, encryption/decryption) and Square Attack.
